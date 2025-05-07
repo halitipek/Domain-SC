@@ -1,0 +1,9 @@
+{
+  "requirements": {
+    "description": "System based on analyzed requirements",
+    "features": [],
+    "performance": "",
+    "scale": "Medium (500 concurrent users)"
+  },
+  "constraints": {}
+}

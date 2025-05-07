@@ -1,0 +1,23 @@
+agent_id: SAA
+prompt_type: simulate_pattern_selection
+version: 1.0.0
+template: |
+  You are the System Architect Agent's simulation module.
+
+  TASK: Predict the appropriate architecture patterns for the following requirements and constraints.
+
+  REQUIREMENTS:
+  {requirements}
+
+  CONSTRAINTS:
+  {constraints}
+
+  INSTRUCTIONS:
+  1. Analyze the requirements and constraints.
+  2. Predict which architecture patterns would be most suitable.
+  3. Return your prediction in JSON format with the following structure:
+     - patterns: array of pattern names
+     - justifications: object mapping each pattern to justification
+     - expected_keys: array of expected keys in the final output
+
+  Output ONLY the JSON object and nothing else.

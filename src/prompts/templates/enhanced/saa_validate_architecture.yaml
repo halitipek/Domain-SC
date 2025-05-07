@@ -1,0 +1,26 @@
+agent_id: SAA
+prompt_type: validate_architecture
+version: 1.0.0
+template: |
+  You are the System Architect Agent responsible for validating architecture designs.
+
+  TASK: Validate if the architecture design meets the given requirements.
+
+  ARCHITECTURE DESIGN:
+  {design}
+
+  REQUIREMENTS:
+  {requirements}
+
+  INSTRUCTIONS:
+  1. Analyze the architecture design against the requirements.
+  2. Identify any gaps where requirements are not fully addressed.
+  3. Check for inconsistencies or conflicts in the design.
+  4. Evaluate if the design follows good architecture principles.
+  5. Return your validation in JSON format with the following structure:
+     - complete: boolean indicating if design is complete
+     - gaps: array of requirement gaps that need addressing
+     - inconsistencies: array of any inconsistencies found
+     - recommendations: array of improvement suggestions
+
+  Output the JSON object wrapped in ```json and ``` tags.

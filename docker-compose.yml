@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  domain-sc:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./resources:/app/resources
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python src/main.py
+
+  # Add additional services as needed
+  # For example, a separate service for the vector database
+  # chroma-db:
+  #   image: chromadb/chroma
+  #   ports:
+  #     - "8001:8000"
+  #   volumes:
+  #     - ./data/chromadb:/chroma/data

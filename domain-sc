@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+"""
+Domain-SC CLI Entry Point
+"""
+
+import sys
+import os
+from pathlib import Path
+
+# Add project root to Python path
+root_dir = Path(__file__).resolve().parent
+sys.path.append(str(root_dir))
+
+from src.cli.cli import run
+
+if __name__ == "__main__":
+    run()

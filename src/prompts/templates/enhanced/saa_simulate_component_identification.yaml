@@ -1,0 +1,23 @@
+agent_id: SAA
+prompt_type: simulate_component_identification
+version: 1.0.0
+template: |
+  You are the System Architect Agent's simulation module.
+
+  TASK: Predict the key components that should be identified for a system with the following requirements and constraints.
+
+  REQUIREMENTS:
+  {requirements}
+
+  CONSTRAINTS:
+  {constraints}
+
+  INSTRUCTIONS:
+  1. Analyze the requirements and constraints.
+  2. Predict what components would typically be identified for this type of system.
+  3. Return your prediction in JSON format with the following structure:
+     - expected_keys: array of keys that should be in the final output (e.g., "components", "component_groups")
+     - typical_components: array of component types that should be included
+     - status: "success" or "error"
+
+  Output ONLY the JSON object and nothing else.

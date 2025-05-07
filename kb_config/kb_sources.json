@@ -1,0 +1,144 @@
+{
+  "github_repos": [
+    {
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "branch": "master",
+      "patterns": [".md$"]
+    },
+    {
+      "url": "https://github.com/kamranahmedse/design-patterns-for-humans",
+      "branch": "master",
+      "patterns": [".md$"]
+    },
+    {
+      "url": "https://github.com/binhnguyennus/awesome-scalability",
+      "branch": "master",
+      "patterns": [".md$"]
+    },
+    {
+      "url": "https://github.com/DovAmir/awesome-design-patterns",
+      "branch": "master",
+      "patterns": [".md$"]
+    },
+    {
+      "url": "https://github.com/OWASP/ASVS",
+      "branch": "master",
+      "subdirectory": "4.0",
+      "patterns": [".md$"]
+    },
+    {
+      "url": "https://github.com/microsoft/autogen",
+      "branch": "main",
+      "subdirectory": "docs",
+      "patterns": [".md$"]
+    },
+    {
+      "url": "https://github.com/microsoft/guidance",
+      "branch": "main",
+      "patterns": [".md$"]
+    },
+    {
+      "url": "https://github.com/openai/evals",
+      "branch": "main",
+      "patterns": [".md$"]
+    },
+    {
+      "url": "https://github.com/hwchase17/langchain-ai-handbook",
+      "branch": "main",
+      "patterns": [".md$"]
+    },
+    {
+      "url": "https://github.com/openai/openai-cookbook",
+      "branch": "main",
+      "patterns": [".md$"]
+    },
+    {
+      "url": "https://github.com/langchain-ai/langchain-agent-examples",
+      "branch": "main",
+      "patterns": [".md$"]
+    },
+    {
+      "url": "https://github.com/tensorflow/agents",
+      "branch": "master",
+      "subdirectory": "docs",
+      "patterns": [".md$"]
+    }
+  ],
+  "articles": [
+    "https://martinfowler.com/articles/microservices.html",
+    "https://martinfowler.com/articles/branching-patterns.html",
+    "https://martinfowler.com/articles/patterns-of-distributed-systems/",
+    "https://12factor.net/",
+    "https://samnewman.io/patterns/architectural/bff/",
+    "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/",
+    "https://en.wikipedia.org/wiki/Software_architecture",
+    "https://en.wikipedia.org/wiki/Software_design_pattern",
+    "https://en.wikipedia.org/wiki/Architectural_pattern",
+    "https://en.wikipedia.org/wiki/Microservices",
+    "https://en.wikipedia.org/wiki/Service-oriented_architecture",
+    "https://en.wikipedia.org/wiki/Domain-driven_design",
+    "https://en.wikipedia.org/wiki/Multi-agent_system",
+    "https://en.wikipedia.org/wiki/Agent-based_model",
+    "https://huggingface.co/blog/agents",
+    "https://lilianweng.github.io/posts/2023-06-23-agent/",
+    "https://www.anthropic.com/research/constitutional-ai",
+    "https://openai.com/research/gpt-4",
+    "https://www.deepmind.com/blog/building-interactive-agents-in-video-game-worlds",
+    "https://blog.langchain.dev/agents-vs-chains/",
+    "https://medium.com/paradigm-research/reflection-17ee8b33f4ff",
+    "https://www.microsoft.com/en-us/research/blog/autogen-enabling-next-generation-large-language-model-applications/",
+    "https://ai.google.dev/docs/agents_overview",
+    "https://www.pinecone.io/learn/series/langchain/langchain-agents/",
+    "https://www.ibm.com/topics/multi-agent-systems"
+  ],
+  "docs_sites": [
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/",
+      "include_paths": ["/azure/architecture/patterns/"],
+      "depth": 1
+    },
+    {
+      "url": "https://refactoring.guru/design-patterns",
+      "depth": 2
+    },
+    {
+      "url": "https://python.langchain.com/docs/modules/agents/",
+      "depth": 3
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/",
+      "depth": 2
+    },
+    {
+      "url": "https://autogen.ai/docs/",
+      "depth": 2
+    },
+    {
+      "url": "https://python.langchain.com/docs/integrations/toolkits/",
+      "depth": 2
+    },
+    {
+      "url": "https://pytorch.org/docs/stable/notes/multiprocessing.html",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.ray.io/en/latest/ray-core/key-concepts.html",
+      "depth": 2
+    },
+    {
+      "url": "https://platform.openai.com/docs/assistants/overview",
+      "depth": 2
+    },
+    {
+      "url": "https://docs.anthropic.com/claude/docs/introduction-to-claude",
+      "depth": 2
+    },
+    {
+      "url": "https://huggingface.co/docs/transformers/main/en/custom_tools",
+      "depth": 2
+    }
+  ],
+  "local_docs": [
+    "resources/"
+  ]
+}

@@ -1,0 +1,95 @@
+2025-05-07 05:51:00,998 - content_extractor - INFO - Processing URLs from 1 files
+2025-05-07 05:51:00,998 - content_extractor - INFO - Extracting URLs from ./kb_reports/gpt-system-rnd.md
+2025-05-07 05:51:00,999 - content_extractor - INFO - Found 31 URLs in ./kb_reports/gpt-system-rnd.md
+2025-05-07 05:51:01,000 - content_extractor - INFO - Processing https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing
+2025-05-07 05:51:01,001 - content_extractor - INFO - Processing https://camunda.com/blog/2023/02/orchestration-vs-choreography/
+2025-05-07 05:51:01,002 - content_extractor - INFO - Processing https://www.confluent.io/blog/event-driven-multi-agent-systems/
+2025-05-07 05:51:01,002 - content_extractor - INFO - Processing https://www.geeksforgeeks.org/microkernel-architecture-pattern-system-design/
+2025-05-07 05:51:01,003 - content_extractor - INFO - Processing https://smythos.com/ai-agents/multi-agent-systems/multi-agent-system-architecture/
+2025-05-07 05:51:01,237 - content_extractor - WARNING - Trafilatura extraction failed for https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:01,270 - content_extractor - INFO - Successfully extracted content from https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing
+2025-05-07 05:51:01,271 - content_extractor - INFO - Processing https://refactoring.guru/design-patterns/strategy/python/example
+2025-05-07 05:51:01,291 - content_extractor - WARNING - Trafilatura extraction failed for https://www.geeksforgeeks.org/microkernel-architecture-pattern-system-design/: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:01,363 - content_extractor - INFO - Successfully extracted content from https://www.geeksforgeeks.org/microkernel-architecture-pattern-system-design/
+2025-05-07 05:51:01,364 - content_extractor - INFO - Processing https://refactoring.guru/design-patterns/catalog
+2025-05-07 05:51:01,389 - content_extractor - WARNING - Trafilatura extraction failed for https://www.confluent.io/blog/event-driven-multi-agent-systems/: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:01,629 - content_extractor - WARNING - Trafilatura extraction failed for https://refactoring.guru/design-patterns/strategy/python/example: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:01,630 - content_extractor - WARNING - Trafilatura extraction failed for https://refactoring.guru/design-patterns/catalog: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:01,632 - content_extractor - WARNING - Trafilatura extraction failed for https://smythos.com/ai-agents/multi-agent-systems/multi-agent-system-architecture/: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:01,634 - content_extractor - WARNING - Trafilatura extraction failed for https://camunda.com/blog/2023/02/orchestration-vs-choreography/: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:01,659 - content_extractor - INFO - Successfully extracted content from https://www.confluent.io/blog/event-driven-multi-agent-systems/
+2025-05-07 05:51:01,660 - content_extractor - INFO - Processing https://www.moesif.com/blog/technical/api-design/Best-Practices-for-Versioning-REST-and-GraphQL-APIs/
+2025-05-07 05:51:01,708 - content_extractor - INFO - Successfully extracted content from https://refactoring.guru/design-patterns/strategy/python/example
+2025-05-07 05:51:01,709 - content_extractor - INFO - Processing https://en.wikipedia.org/wiki/Observer_pattern
+2025-05-07 05:51:01,775 - content_extractor - INFO - Successfully extracted content from https://smythos.com/ai-agents/multi-agent-systems/multi-agent-system-architecture/
+2025-05-07 05:51:01,776 - content_extractor - INFO - Processing https://graphql.org/faq/best-practices/
+2025-05-07 05:51:01,783 - content_extractor - INFO - Successfully extracted content from https://refactoring.guru/design-patterns/catalog
+2025-05-07 05:51:01,784 - content_extractor - INFO - Processing https://www.geeksforgeeks.org/design-patterns-architecture/
+2025-05-07 05:51:01,802 - content_extractor - INFO - Successfully extracted content from https://camunda.com/blog/2023/02/orchestration-vs-choreography/
+2025-05-07 05:51:01,802 - content_extractor - INFO - Processing https://martinfowler.com/eaaDev/EventSourcing.html
+2025-05-07 05:51:01,989 - content_extractor - WARNING - Trafilatura extraction failed for https://en.wikipedia.org/wiki/Observer_pattern: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:02,043 - content_extractor - WARNING - Trafilatura extraction failed for https://www.geeksforgeeks.org/design-patterns-architecture/: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:02,056 - content_extractor - WARNING - Trafilatura extraction failed for https://graphql.org/faq/best-practices/: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:02,123 - content_extractor - INFO - Successfully extracted content from https://graphql.org/faq/best-practices/
+2025-05-07 05:51:02,124 - content_extractor - INFO - Processing https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/caching-patterns.html
+2025-05-07 05:51:02,183 - content_extractor - INFO - Successfully extracted content from https://www.geeksforgeeks.org/design-patterns-architecture/
+2025-05-07 05:51:02,184 - content_extractor - INFO - Processing https://aws.amazon.com/blogs/compute/application-integration-patterns-for-microservices-orchestration-and-coordination/
+2025-05-07 05:51:02,280 - content_extractor - INFO - Successfully extracted content from https://en.wikipedia.org/wiki/Observer_pattern
+2025-05-07 05:51:02,280 - content_extractor - INFO - Processing https://hanwenzhang123.medium.com/software-design-and-patterns-catalog-of-23-gof-design-patterns-f336989f7d99
+2025-05-07 05:51:02,366 - content_extractor - WARNING - Trafilatura extraction failed for https://www.moesif.com/blog/technical/api-design/Best-Practices-for-Versioning-REST-and-GraphQL-APIs/: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:02,385 - content_extractor - WARNING - Trafilatura extraction failed for https://martinfowler.com/eaaDev/EventSourcing.html: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:02,413 - content_extractor - INFO - Successfully extracted content from https://www.moesif.com/blog/technical/api-design/Best-Practices-for-Versioning-REST-and-GraphQL-APIs/
+2025-05-07 05:51:02,414 - content_extractor - INFO - Processing https://www.linkedin.com/pulse/api-design-patterns-best-practices-building-robust-apis
+2025-05-07 05:51:02,453 - content_extractor - INFO - Successfully extracted content from https://martinfowler.com/eaaDev/EventSourcing.html
+2025-05-07 05:51:02,453 - content_extractor - INFO - Processing https://en.wikipedia.org/wiki/Category:Software_design_patterns
+2025-05-07 05:51:02,620 - content_extractor - WARNING - Trafilatura extraction failed for https://aws.amazon.com/blogs/compute/application-integration-patterns-for-microservices-orchestration-and-coordination/: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:02,700 - content_extractor - INFO - Successfully extracted content from https://aws.amazon.com/blogs/compute/application-integration-patterns-for-microservices-orchestration-and-coordination/
+2025-05-07 05:51:02,701 - content_extractor - INFO - Processing https://www.geeksforgeeks.org/gang-of-four-gof-design-patterns/
+2025-05-07 05:51:02,724 - content_extractor - WARNING - Trafilatura extraction failed for https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/caching-patterns.html: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:02,731 - content_extractor - WARNING - Trafilatura extraction failed for https://en.wikipedia.org/wiki/Category:Software_design_patterns: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:02,748 - content_extractor - INFO - Successfully extracted content from https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/caching-patterns.html
+2025-05-07 05:51:02,749 - content_extractor - INFO - Processing https://www.cloudflare.com/learning/bots/what-is-rate-limiting/
+2025-05-07 05:51:02,791 - content_extractor - INFO - Successfully extracted content from https://en.wikipedia.org/wiki/Category:Software_design_patterns
+2025-05-07 05:51:02,792 - content_extractor - INFO - Processing https://en.wikipedia.org/wiki/Load_balancing_
+2025-05-07 05:51:02,909 - content_extractor - WARNING - Trafilatura extraction failed for https://www.geeksforgeeks.org/gang-of-four-gof-design-patterns/: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:02,965 - content_extractor - ERROR - Error processing https://www.cloudflare.com/learning/bots/what-is-rate-limiting/: 403 Client Error: Forbidden for url: https://www.cloudflare.com/learning/bots/what-is-rate-limiting/
+2025-05-07 05:51:02,966 - content_extractor - INFO - Processing https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns
+2025-05-07 05:51:03,032 - content_extractor - INFO - Successfully extracted content from https://www.geeksforgeeks.org/gang-of-four-gof-design-patterns/
+2025-05-07 05:51:03,033 - content_extractor - INFO - Processing https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+2025-05-07 05:51:03,110 - content_extractor - WARNING - Trafilatura extraction failed for https://en.wikipedia.org/wiki/Load_balancing_: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:03,128 - content_extractor - INFO - Successfully extracted content from https://en.wikipedia.org/wiki/Load_balancing_
+2025-05-07 05:51:03,128 - content_extractor - INFO - Processing https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/hexagonal-architecture.html
+2025-05-07 05:51:03,178 - content_extractor - WARNING - Trafilatura extraction failed for https://hanwenzhang123.medium.com/software-design-and-patterns-catalog-of-23-gof-design-patterns-f336989f7d99: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:03,257 - content_extractor - INFO - Successfully extracted content from https://hanwenzhang123.medium.com/software-design-and-patterns-catalog-of-23-gof-design-patterns-f336989f7d99
+2025-05-07 05:51:03,257 - content_extractor - INFO - Processing https://konghq.com/blog/learning-center/what-is-api-rate-limiting
+2025-05-07 05:51:03,296 - content_extractor - WARNING - Trafilatura extraction failed for https://www.enterpriseintegrationpatterns.com/patterns/messaging/: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:03,316 - content_extractor - INFO - Successfully extracted content from https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+2025-05-07 05:51:03,316 - content_extractor - INFO - Processing https://martinfowler.com/articles/microservices.html
+2025-05-07 05:51:03,522 - content_extractor - WARNING - Trafilatura extraction failed for https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:03,532 - content_extractor - WARNING - Trafilatura extraction failed for https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/hexagonal-architecture.html: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:03,606 - content_extractor - INFO - Successfully extracted content from https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/hexagonal-architecture.html
+2025-05-07 05:51:03,606 - content_extractor - INFO - Processing https://en.wikipedia.org/wiki/REST
+2025-05-07 05:51:03,621 - content_extractor - INFO - Successfully extracted content from https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns
+2025-05-07 05:51:03,622 - content_extractor - INFO - Processing https://en.wikipedia.org/wiki/Event-driven_architecture
+2025-05-07 05:51:03,674 - content_extractor - WARNING - Trafilatura extraction failed for https://www.linkedin.com/pulse/api-design-patterns-best-practices-building-robust-apis: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:03,811 - content_extractor - INFO - Successfully extracted content from https://www.linkedin.com/pulse/api-design-patterns-best-practices-building-robust-apis
+2025-05-07 05:51:03,812 - content_extractor - INFO - Processing https://graphql.org/
+2025-05-07 05:51:03,893 - content_extractor - WARNING - Trafilatura extraction failed for https://martinfowler.com/articles/microservices.html: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:03,904 - content_extractor - WARNING - Trafilatura extraction failed for https://en.wikipedia.org/wiki/REST: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:03,918 - content_extractor - WARNING - Trafilatura extraction failed for https://konghq.com/blog/learning-center/what-is-api-rate-limiting: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:03,936 - content_extractor - WARNING - Trafilatura extraction failed for https://en.wikipedia.org/wiki/Event-driven_architecture: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:04,020 - content_extractor - WARNING - Trafilatura extraction failed for https://graphql.org/: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:04,052 - content_extractor - INFO - Successfully extracted content from https://martinfowler.com/articles/microservices.html
+2025-05-07 05:51:04,053 - content_extractor - INFO - Processing https://en.wikipedia.org/wiki/Software_design_pattern
+2025-05-07 05:51:04,097 - content_extractor - INFO - Successfully extracted content from https://konghq.com/blog/learning-center/what-is-api-rate-limiting
+2025-05-07 05:51:04,098 - content_extractor - INFO - Processing https://en.wikipedia.org/wiki/Multitier_architecture
+2025-05-07 05:51:04,154 - content_extractor - INFO - Successfully extracted content from https://graphql.org/
+2025-05-07 05:51:04,155 - content_extractor - INFO - Processing https://circle.visual-paradigm.com/catalog/
+2025-05-07 05:51:04,212 - content_extractor - INFO - Successfully extracted content from https://en.wikipedia.org/wiki/Event-driven_architecture
+2025-05-07 05:51:04,236 - content_extractor - INFO - Successfully extracted content from https://en.wikipedia.org/wiki/REST
+2025-05-07 05:51:04,361 - content_extractor - WARNING - Trafilatura extraction failed for https://en.wikipedia.org/wiki/Software_design_pattern: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:04,367 - content_extractor - WARNING - Trafilatura extraction failed for https://en.wikipedia.org/wiki/Multitier_architecture: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:04,528 - content_extractor - INFO - Successfully extracted content from https://en.wikipedia.org/wiki/Multitier_architecture
+2025-05-07 05:51:04,610 - content_extractor - INFO - Successfully extracted content from https://en.wikipedia.org/wiki/Software_design_pattern
+2025-05-07 05:51:05,376 - content_extractor - WARNING - Trafilatura extraction failed for https://circle.visual-paradigm.com/catalog/: Cannot set format, must be one of: csv, html, json, markdown, python, txt, xml, xmltei
+2025-05-07 05:51:05,493 - content_extractor - INFO - Successfully extracted content from https://circle.visual-paradigm.com/catalog/

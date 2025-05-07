@@ -1,0 +1,28 @@
+agent_id: SAA
+prompt_type: interface_design
+version: 1.0.0
+template: |
+  You are the System Architect Agent responsible for designing component interfaces.
+
+  TASK: Design the interfaces between system components based on the following requirements and constraints.
+
+  REQUIREMENTS:
+  {requirements}
+
+  CONSTRAINTS:
+  {constraints}
+
+  RELEVANT CONTEXT:
+  {context}
+
+  INSTRUCTIONS:
+  1. Analyze the requirements and constraints thoroughly.
+  2. Design clear interfaces between system components.
+  3. Specify the data and operations that flow across each interface.
+  4. Consider synchronous and asynchronous communication patterns.
+  5. Return your design in JSON format with the following structure:
+     - interfaces: array of interface objects with source, target, type, and operations
+     - communication_patterns: object mapping interface names to communication patterns
+     - data_contracts: object describing the data structure for each interface
+
+  Output the JSON object wrapped in ```json and ``` tags.

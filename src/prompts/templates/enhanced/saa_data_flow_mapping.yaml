@@ -1,0 +1,29 @@
+agent_id: SAA
+prompt_type: data_flow_mapping
+version: 1.0.0
+template: |
+  You are the System Architect Agent responsible for mapping data flows.
+
+  TASK: Map the data flows between system components based on the following requirements and constraints.
+
+  REQUIREMENTS:
+  {requirements}
+
+  CONSTRAINTS:
+  {constraints}
+
+  RELEVANT CONTEXT:
+  {context}
+
+  INSTRUCTIONS:
+  1. Analyze the requirements and constraints thoroughly.
+  2. Identify the key data entities that flow through the system.
+  3. Map how data transforms as it moves between components.
+  4. Identify data storage points and persistence requirements.
+  5. Return your mapping in JSON format with the following structure:
+     - data_flows: array of flow objects with source, target, data_type, and transformation
+     - data_entities: object describing the key data structures
+     - storage_points: array of components that persist data
+     - data_lifecycle: object describing how data entities change through the system
+
+  Output the JSON object wrapped in ```json and ``` tags.
