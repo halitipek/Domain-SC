@@ -12,11 +12,11 @@ import hashlib
 from typing import Dict, Any, List, Optional, Tuple
 from datetime import datetime
 
-from agents.base_agent import BaseAgent
-from utils.logger import setup_logger
-from services.optimized_llm_service import OptimizedLLMService
-from services.enhanced_rag_service import EnhancedRAGService
-from prompts.adaptive_prompt_system import AdaptivePromptSystem
+from src.agents.base_agent import BaseAgent
+from src.utils.logger import setup_logger
+from src.services.optimized_llm_service import OptimizedLLMService
+from src.services.enhanced_rag_service import EnhancedRAGService
+from src.prompts.adaptive_prompt_system import AdaptivePromptSystem
 
 logger = setup_logger(__name__, "system_architect_agent.log")
 

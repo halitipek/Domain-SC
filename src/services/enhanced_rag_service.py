@@ -11,9 +11,9 @@ from typing import List, Dict, Any, Optional
 import numpy as np
 from datetime import datetime
 
-from config.config import RAG_SETTINGS
-from utils.logger import setup_logger
-from services.optimized_llm_service import OptimizedLLMService
+from src.config.config import RAG_SETTINGS
+from src.utils.logger import setup_logger
+from src.services.optimized_llm_service import OptimizedLLMService
 
 logger = setup_logger(__name__, "rag_service.log")
 
@@ -235,7 +235,7 @@ Focus only on direct relevance. Return only a number from 0 to 10."""
                 logger.info(f"Created new collection: {collection_name}")
             
             # Process and index documents
-            from utils.document_processor import process_files
+            from src.utils.document_processor import process_files
             
             documents, metadatas, ids = process_files(file_paths, self.chunk_size, self.chunk_overlap)
             
