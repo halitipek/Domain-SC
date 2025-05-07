@@ -26,12 +26,7 @@ logger = logging.getLogger(__name__)
 
 def test_optimized_llm_service():
     """Test the optimized LLM service."""
-    try:
-        # Try importing with src prefix first
-        from src.services.optimized_llm_service import OptimizedLLMService
-    except ImportError:
-        # If that fails, try direct import
-        from services.optimized_llm_service import OptimizedLLMService
+    from src.services.optimized_llm_service import OptimizedLLMService
     
     logger.info("Testing optimized LLM service...")
     llm_service = OptimizedLLMService()
@@ -69,12 +64,7 @@ def test_optimized_llm_service():
 
 def test_enhanced_rag_service():
     """Test the enhanced RAG service."""
-    try:
-        # Try importing with src prefix first
-        from src.services.enhanced_rag_service import EnhancedRAGService
-    except ImportError:
-        # If that fails, try direct import
-        from services.enhanced_rag_service import EnhancedRAGService
+    from src.services.enhanced_rag_service import EnhancedRAGService
     
     logger.info("Testing enhanced RAG service...")
     rag_service = EnhancedRAGService()
@@ -94,12 +84,7 @@ def test_enhanced_rag_service():
 
 def test_enhanced_architect_agent():
     """Test the enhanced system architect agent."""
-    try:
-        # Try importing with src prefix first
-        from src.agents.enhanced_system_architect_agent import EnhancedSystemArchitectAgent
-    except ImportError:
-        # If that fails, try direct import
-        from agents.enhanced_system_architect_agent import EnhancedSystemArchitectAgent
+    from src.agents.enhanced_system_architect_agent import EnhancedSystemArchitectAgent
     
     logger.info("Testing enhanced system architect agent...")
     agent = EnhancedSystemArchitectAgent()
@@ -133,14 +118,8 @@ def test_enhanced_architect_agent():
 
 def compare_with_standard_agent():
     """Compare the enhanced agent with the standard agent."""
-    try:
-        # Try importing with src prefix first
-        from src.agents.system_architect_agent import SystemArchitectAgent
-        from src.agents.enhanced_system_architect_agent import EnhancedSystemArchitectAgent
-    except ImportError:
-        # If that fails, try direct import
-        from agents.system_architect_agent import SystemArchitectAgent
-        from agents.enhanced_system_architect_agent import EnhancedSystemArchitectAgent
+    from src.agents.system_architect_agent import SystemArchitectAgent
+    from src.agents.enhanced_system_architect_agent import EnhancedSystemArchitectAgent
     import time
     
     logger.info("Comparing standard agent with enhanced agent...")

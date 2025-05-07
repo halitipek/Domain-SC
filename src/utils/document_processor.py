@@ -9,7 +9,7 @@ import logging
 from typing import List, Dict, Any, Tuple
 import re
 
-from utils.logger import setup_logger
+from src.utils.logger import setup_logger
 
 logger = setup_logger(__name__, "document_processor.log")
 

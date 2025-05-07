@@ -13,8 +13,8 @@ import hashlib
 from typing import Dict, Any, Optional, List, Union
 from datetime import datetime
 
-from config.config import LLM_CONFIG
-from utils.logger import setup_logger
+from src.config.config import LLM_CONFIG
+from src.utils.logger import setup_logger
 from dotenv import load_dotenv
 
 logger = setup_logger(__name__, "llm_service.log")
